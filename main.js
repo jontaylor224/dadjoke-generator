@@ -14,9 +14,8 @@ async function getRandomJoke () {
 }
 
 async function handleClick (event) {
-    jokeElement.innerHTML = ""
     const { joke } = await getRandomJoke()
-    jokeElement.append(joke)
+    jokeElement.replaceChildren(joke)
 }
 
 getJokeButton.addEventListener("click", handleClick)
