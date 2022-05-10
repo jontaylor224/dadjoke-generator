@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+#container {
+    height: 40vh;
+    width: 75vw;
+    margin: 1rem auto;
+    padding: 2rem;
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#joke {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 2rem;
+    padding: 1.5rem;
+    background-color: white;
+}
+
+button {
+    padding: 1rem;
+    border: 1px solid darkgreen;
+    background-color: green;
+    color: white;
+    border-radius: 10%;
+}
