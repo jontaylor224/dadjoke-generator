@@ -9,7 +9,7 @@ async function getRandomJoke () {
         },
       })
       const data = response.json()
-      console.log(data)
+    //   console.log(data)
       return data
 }
 
