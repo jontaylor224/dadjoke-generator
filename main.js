@@ -1,6 +1,6 @@
 const jokeElement = document.querySelector("#joke")
 const getJokeButton = document.querySelector("button")
-const apiURL = "http://icanhazdadjoke.com"
+const apiURL = "https://icanhazdadjoke.com"
 
 async function getRandomJoke () {
     const response = await fetch( apiURL, {
